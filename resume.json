@@ -56,6 +56,16 @@
       "endDate": "2017-06-31",
       "gpa": "4.0",
       "courses": ["Theoretical Physics", "Pure Mathematics", "Computer Science"]
+    },
+    {
+      "institution": "University of Antananarivo",
+      "url": "http://www.sun.ac.za/english",
+      "area": "Theoretical and Applied Physics",
+      "studyType": "Maitrise",
+      "startDate": "2012-01-01",
+      "endDate": "2016-05-31",
+      "gpa": "4.0",
+      "courses": ["Theoretical Physics", "Pure Mathematics", "Chemistry", "Numerical Analysis"]
     }
   ],
   "awards": [],
