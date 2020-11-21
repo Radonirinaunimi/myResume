@@ -7,7 +7,7 @@
     "email": "tanjona.rabemananjara@mi.infn.it",
     "phone": "(+39) 351-230-1961",
     "url": "http://radonirinaunimi.github.io",
-    "summary": "Introduction about self",
+    "summary": "In 2016, I was a Summer Student at the European Organization for Nuclear Research (CERN) working on the LHCb experiment. Afterward, I moved to Cape Town in South Africa where I was awarded a M.Sc. in Mathematical Sciences from Stellenbosch University (2017) followed by a M.Sc. in Theoretical Physics at the University of Cape Town (2018) both under the Supervision of Dr. W. A. Horowitz. I am currently a Ph.D. candidate at the Department of Physics of the University of Milan (Statale) working within the remarkable N3PDF group (in collab. with NNPDF) under the supervision of Prof. Stefano Forte and Dr. Stefano Carrazza. My area of interests spans a wide range of topics in high energy particle physics (QCD, Higgs, Collider Phenomenology, Higgs physics, resummation) and machine learning.",
     "location": {
       "address": "Universita degli Studi di Milano, Dipartimento di Fisica, Via Giovanni Celoria 16",
       "postalCode": "20133",
@@ -23,12 +23,49 @@
       },
       {
         "network": "LinkedIn",
-        "username": "Rabemananjara Tanjona Radonirina",
+        "username": "Tanjona",
         "url": "https://www.linkedin.com/in/rabemananjara-tanjona-radonirina-6ab726120/"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Universita degli Studi di Milano, Dipartimento di Fisica",
+      "position": "Teaching Assistant for Fisica Teorica I (QFT I)",
+      "location": "",
+      "url": "",
+      "startDate": "2019-01-01",
+      "endDate": "2019-07-30",
+      "summary": "holding office hours, giving tutorials, providing corrections for exams"
+    },
+    {
+      "name": "University of Cape Town, Department of Physics",
+      "position": "Lab Demonstrator and Tutor for 3rd Medecine and 1st Physics",
+      "location": "Cape Town, South Africa",
+      "url": "",
+      "startDate": "2018-02-01",
+      "endDate": "2018-07-30",
+      "summary": "supervising Labs, giving white board tutorials, grading lab reports"
+    },
+    {
+      "name": "University of Cape Town",
+      "position": "Teaching Assistant for QFT II (PHY4000W)",
+      "location": "Cape Town, South Africa",
+      "url": "",
+      "startDate": "2017-10-01",
+      "endDate": "2017-12-20",
+      "summary": "holding office hours, grading homeworks & exams"
+    },
+    {
+      "name": "European Organization for Nuclear Research (CERN)",
+      "position": "Summer Intern",
+      "location": "Geneva, Swtizerland",
+      "url": "",
+      "startDate": "2016-06-14",
+      "endDate": "2016-08-04",
+      "summary": "developing a parton shower library"
+    }
+  ],
   "volunteer": [],
   "education": [
     {
@@ -36,16 +73,16 @@
       "url": "https://www.unimi.it/it",
       "area": "Theoretical Physics",
       "studyType": "PhD",
-      "startDate": "2018-10-01",
-      "endDate": "2021-10-01"
+      "startDate": "2018-10-01"
     },
     {
       "institution": "University of Cape Town",
       "url": "https://www.uct.ac.za/",
       "area": "Theoretical Physics",
       "studyType": "MSc.",
-      "startDate": "2017-11-01",
-      "endDate": "2018-08-30"
+      "startDate": "2017-10-01",
+      "endDate": "2018-08-30",
+      "gpa": "4.0 (Cum Laude)"
     },
     {
       "institution": "Stellenbosch University",
@@ -53,9 +90,19 @@
       "area": "Mathematical Sciences",
       "studyType": "MSc.",
       "startDate": "2016-09-01",
-      "endDate": "2017-06-31",
-      "gpa": "4.0",
+      "endDate": "2017-06-30",
+      "gpa": "4.0 (Cum Laude)",
       "courses": ["Theoretical Physics", "Pure Mathematics", "Computer Science"]
+    },
+    {
+      "institution": "University of Antananarivo",
+      "url": "http://www.sun.ac.za/english",
+      "area": "Theoretical and Applied Physics",
+      "studyType": "Maitrise",
+      "startDate": "2012-01-01",
+      "endDate": "2016-05-31",
+      "gpa": "4.0 (Cum Laude)",
+      "courses": ["Theoretical Physics", "Pure Mathematics", "Chemistry", "Numerical Analysis"]
     }
   ],
   "awards": [],
