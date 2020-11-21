@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-node@v1
 
       - name: Install the dependencies
-        run: npm install resume-cli jsonresume-theme-github
+        run: npm install resume-cli jsonresume-theme-spartan
 
       - name: Build the resume
         run: ./node_modules/.bin/resume export public/index.html --theme spartan
