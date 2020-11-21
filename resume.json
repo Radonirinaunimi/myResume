@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tanjona R. Rabemananjara",
+    "label": "Theoretical Physics, PhD candidate",
+    "image": "",
+    "email": "tanjona.rabemananjara@mi.infn.it",
+    "phone": "(+39) 351-230-1961",
+    "url": "http://radonirinaunimi.github.io",
+    "summary": "Introduction about self",
+    "location": {
+      "address": "Universita degli Studi di Milano, Dipartimento di Fisica, Via Giovanni Celoria 16",
+      "postalCode": "20133",
+      "city": "Milano",
+      "countryCode": "IT",
+      "region": "Lombardia"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Radonirinaunimi",
+        "url": "https://github.com/Radonirinaunimi"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Rabemananjara Tanjona Radonirina",
+        "url": "https://www.linkedin.com/in/rabemananjara-tanjona-radonirina-6ab726120/"
+      }
+    ]
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Universita degli Studi di Milano",
+      "url": "https://www.unimi.it/it",
+      "area": "Theoretical Physics",
+      "studyType": "PhD",
+      "startDate": "2018-10-01",
+      "endDate": "2021-10-01"
+    },
+    {
+      "institution": "University of Cape Town",
+      "url": "https://www.uct.ac.za/",
+      "area": "Theoretical Physics",
+      "studyType": "MSc.",
+      "startDate": "2017-11-01",
+      "endDate": "2018-08-30"
+    },
+    {
+      "institution": "Stellenbosch University",
+      "url": "http://www.sun.ac.za/english",
+      "area": "Mathematical Sciences",
+      "studyType": "MSc.",
+      "startDate": "2016-09-01",
+      "endDate": "2017-06-31",
+      "gpa": "4.0",
+      "courses": ["Theoretical Physics", "Pure Mathematics", "Computer Science"]
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Combined Resummation for Higgs and Drell--Yan",
+      "publisher": "JHEP",
+      "releaseDate": "2020-12-01",
+      "url": "http://en.wikipedia.org/wiki/",
+      "summary": "Give a Brief Summary"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Development",
+      "level": "Master",
+      "keywords": ["Fortran", "C++", "Python", "Julia"]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "Javascript"]
+    },
+    {
+      "name": "Operating System & Scripting",
+      "level": "Master",
+      "keywords": ["GNU/Linux", "Bash", "Fish"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Official Language"
+    },
+    {
+      "language": "English",
+      "fluency": "Working Proficiency"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Basics"
+    },
+    {
+      "language": "German",
+      "fluency": "Basics"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Books",
+      "keywords": ["Politics", "Philosophy"]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Compression of Probability Distribution Functions (PDFs)",
+      "description": "pycompressor",
+      "highlights": [],
+      "keywords": ["Probability distribution", "Compression", "Statistics", "Python"],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "https://n3pdf.github.io/pycompressor/",
+      "roles": ["Developer", "Designer"],
+      "entity": "N3PDF",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
