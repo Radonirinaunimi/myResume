@@ -10,10 +10,10 @@ jobs:
       - uses: actions/setup-node@v1
 
       - name: Install the dependencies
-        run: npm install resume-cli jsonresume-theme-spartan
+        run: npm install resume-cli jsonresume-theme-ravgift
 
       - name: Build the resume 🔨
-        run: ./node_modules/.bin/resume export public/index.html --theme spartan
+        run: ./node_modules/.bin/resume export public/index.html --theme ravgift
 
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
