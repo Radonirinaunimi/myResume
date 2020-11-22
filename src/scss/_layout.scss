@@ -1,0 +1,94 @@
+// Layout
+// ----------------------------------------------
+
+body {
+  margin: 4rem 0;
+  background-color: $background-bg;
+}
+
+.page {
+  background: $page-bg;
+  width: $page-width;
+  display: flex;
+  margin: 0 auto;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  font-size: $font-size-base;
+
+  .sidebar {
+    background-color: $sidebar-bg;
+    color: $sidebar-color;
+    flex: 0 0 $sidebar-width;
+    width: $sidebar-width;
+
+    a {
+      color: $sidebar-color;
+    }
+  }
+
+  .content {
+    flex: 1;
+    background-color: $page-bg;
+    color: $page-color;
+    position: relative;
+
+    .watermark {
+      $watermark-height: 12px;
+
+      position: absolute;
+      top: $spacer;
+      right: $padding-x;
+      display: flex;
+      align-items: center;
+      width: 90px;
+
+      span {
+        flex: 1;
+        text-align: right;
+        margin-right: 0.2rem;
+        font-size: $small-font-size;
+        line-height: 1;
+      }
+
+      svg {
+        flex-basis: $watermark-height;
+        height: $watermark-height;
+      }
+    }
+  }
+
+  [class^="section-"] {
+    width: 100%;
+  }
+  
+  [class^="section-"] .title {
+    $icon-bg-size: 24.02px;
+  
+    text-transform: uppercase;
+    padding: $spacer $padding-x 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  
+    span {
+      margin-left: $spacer/2;
+      line-height: 1;
+    }
+  
+    .title-icon {
+      background-color: $page-tertiary;
+      border-radius: 50%;
+      width: $icon-bg-size;
+      height: $icon-bg-size;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-basis: $icon-bg-size;
+  
+      svg {
+        flex: 1;
+        align-self: center;
+        height: $h2-font-size;
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+// Sections
+// ----------------------------------------------
+
+// Section Summary
+// --------------------------------------------------------
+
+.section-summary {
+  .p-3 {
+    padding-left: $padding-x !important;
+    padding-right: $padding-x !important;
+  }
+  p {
+    text-align: justify;
+    margin-bottom: 0;
+
+    & + p {
+      margin-top: $font-size-base;
+    }
+  }
+}
+
+// Section Skills
+// --------------------------------------------------------
+
+.content .section-skills {
+  .card-block {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  ul li {
+    .li-title {
+      font-weight: bold;
+    }
+
+    .li-title + .li-subtitle {
+      color: $color-secondary;
+    }
+
+    & + li {
+      margin-top: 0.25rem;
+    }
+  }
+}
+
+// Section Basic
+// --------------------------------------------------------
+
+.section-basic {
+  text-align: center;
+  background-color: $sidebar-basic-bg;
+  background-size: cover;
+  background-position: center;
+  background-size: 130%;
+
+  .overlay {
+    position: absolute;
+    width: $sidebar-width;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    width: $avatar-size;
+    height: $avatar-size;
+    background-color: $sidebar-basic-bg;
+
+    img {
+      width: $avatar-size;
+      height: $avatar-size;
+    }
+  }
+
+  .name {
+    margin: $spacer auto;
+  }
+}
+
+// Section Contact
+// --------------------------------------------------------
+
+.section-contact {
+  ul + ul {
+    margin-top: 2rem;
+  }
+
+  li + li {
+    margin-top: 0.5rem;
+  }
+}
+
+// Section Interests
+// --------------------------------------------------------
+
+.content .section-interests .card-block {
+  padding-top: 0;
+
+  .tag-list {
+    display: inline-block;
+  }
+}
+
+// Section Languages
+// --------------------------------------------------------
+
+.section-languages {
+  .column-name {
+    width: 1%;
+  }
+
+  .column-flag {
+    width: $flag-size;
+    
+    svg {
+      display: block;
+      max-height: 100%;
+
+      width: $flag-size;
+      height: $flag-size;
+    }
+  }
+}

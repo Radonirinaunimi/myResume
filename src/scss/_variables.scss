@@ -1,0 +1,106 @@
+// Variables
+// ----------------------------------------------
+
+// Colors
+
+$background-bg: #424546;
+$color-primary: #d9534f;
+$color-secondary: #8a979e;
+$brand-primary: $color-primary;
+
+$page-bg: white;
+$page-color: #292b2c;
+$page-primary: $color-primary;
+$page-secondary: $color-secondary;
+$page-tertiary: darken($page-bg, 4%);
+$timeline-color: darken($page-bg, 10%);
+
+$sidebar-bg: #242324;
+$sidebar-basic-bg: darken($sidebar-bg, 5%);
+$sidebar-color: white;
+$sidebar-primary: $color-primary;
+$sidebar-secondary: lighten($color-secondary, 10%);
+
+// Fonts
+
+$elite-font-path: "../fonts";
+$elite-font-name: "elite";
+$el-trophy: "\e901";
+$el-medal: "\e900";
+$el-hand-up: "\e0d4";
+$el-beer: "\e15d";
+$el-book: "\e156";
+$el-calendar: "\e14b";
+$el-comments-alt: "\e125";
+$el-edit: "\e112";
+$el-envelope: "\e10e";
+$el-thumbs-up: "\e027";
+$el-tasks: "\e031";
+$el-tags: "\e032";
+$el-suitcase: "\e038";
+$el-pushpin: "\e07f";
+$el-phone: "\e08b";
+$el-map-marker: "\e0a4";
+$el-link: "\e0b9";
+$el-paperclip: "\e093";
+$el-tumblr: "\e01e";
+$el-twitter: "\e01a";
+$el-xing: "\e005";
+$el-youtube: "\e003";
+$el-stackoverflow: "\e046";
+$el-vimeo: "\e00d";
+$el-skype: "\e054";
+$el-instagram: "\e0c6";
+$el-linkedin: "\e0b6";
+$el-pinterest: "\e089";
+$el-google-plus: "\e0da";
+$el-github: "\e0e1";
+$el-facebook: "\e102";
+$el-dribbble: "\e115";
+$el-bitbucket: "\e159";
+
+// Font Sizes
+
+$font-family-sans-serif: 'Maven Pro', sans-serif;
+$font-size-base: 0.563rem;
+$h1-font-size: $font-size-base * 1.6;
+$h2-font-size: $font-size-base * 1.4;
+$h3-font-size: $font-size-base * 1.15;
+$h4-font-size: $font-size-base * 1.1;
+$h5-font-size: $font-size-base;
+$small-font-size: $font-size-base * 0.8;
+
+// Page
+
+$page-width: 595px;
+$sidebar-width: 160px;
+$spacer: 14px;
+$avatar-size: 90px;
+$padding-x: $spacer;
+$sidebar-padding-x: $spacer;
+$icon-size: $h4-font-size;
+
+// Tables
+
+$table-cell-padding: 0.5rem;
+$table-border-color: transparent;
+
+// Progress Bars
+
+$progress-border-radius: 0;
+$progress-bg: transparent;
+$progress-border-color: $color-secondary;
+$progress-box-shadow: none;
+$progress-height: 0.5rem;
+
+// Badges
+
+$badge-padding-y: 0.2rem;
+$badge-border-radius: 2px;
+
+// Cards
+
+$card-image-size: 26px;
+$flag-size: 1rem;
+$timeline-thick: 2px;
+$timeline-dots-size: 10px + $timeline-thick;

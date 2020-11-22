@@ -1,0 +1,163 @@
+// Sidebar
+// ----------------------------------------------
+
+.sidebar {
+  font-size: $small-font-size;
+
+  h2 {
+    font-size: $h3-font-size;
+  }
+
+  h3 {
+    font-size: $h5-font-size;
+  }
+
+  .section-basic {
+    padding: $spacer $sidebar-padding-x;
+  }
+
+  [class^="section-"] .title {
+    padding: $spacer $sidebar-padding-x 0;
+    justify-content: center;
+
+    .title-icon {
+      background-color: transparent;
+      padding: 0;
+      height: auto;
+      width: 1rem;
+      flex-basis: 1rem;
+      margin-right: $spacer/3;
+      justify-content: center;
+    }
+
+    span {
+      margin: 0;
+      color: $sidebar-color !important;
+    }
+  }
+
+  .progress-dots .dot {
+    border-color: $sidebar-secondary;
+
+    &.active {
+      background-color: $sidebar-primary;
+      border-color: $sidebar-primary;
+    }
+  }
+
+  .column-flag {
+    svg {
+      width: 0.9rem;
+      height: 0.7rem;
+    }
+  }
+}
+  
+
+.sidebar .card {
+  padding: $spacer $sidebar-padding-x;
+
+  .card-aside {
+    display: none;
+  }
+
+  .card-block {
+    margin-left: 0;
+  }
+
+  .card-title {
+    text-transform: none;
+  }
+  
+  .card-body {
+    text-align: left;
+    word-break: break-all;
+    hyphens: auto;
+  }
+
+  .card-link {
+    word-wrap: break-word;
+
+    svg {
+      display: none;
+    }
+
+    span {
+      margin-left: 0;
+    }
+  }
+
+  .card-highlights {
+    display: none;
+  }
+
+  & + .card {
+    padding-top: 0;
+  }
+}
+
+
+// Section Skills
+// --------------------------------------------------------
+
+.sidebar .section-skills {
+    .card-table {
+      width: 100%;
+
+      td + td {
+        padding-left: 0;
+      }
+  
+      td {
+        vertical-align: top;
+      }
+  
+      .cell-progress {
+        width: 68px;
+      }
+    }
+  
+    .skill {
+      @include clearfix;
+  
+      .name {
+        float: left;
+        margin-bottom: 0;
+      }
+    }
+}
+
+
+// Section Interests
+// --------------------------------------------------------
+
+.sidebar .section-interests {
+    ul li {
+      color: $sidebar-color;
+    }
+
+    li + li {
+      margin-top: $spacer/2;
+    }
+  
+    .tag-list {
+      margin-left: 0;
+    }
+}
+
+  
+// Section
+// --------------------------------------------------------
+
+.sidebar {
+  .section-awards,
+  .section-publications,
+  .section-references,
+  .section-volunteer,
+  .section-certifications {
+    .card-body {
+      display: none;
+    }
+  }
+}
+

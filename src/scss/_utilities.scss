@@ -1,0 +1,76 @@
+// Utilities
+// ----------------------------------------------
+
+.text-primary {
+  .sidebar & {
+    color: $sidebar-primary !important;
+    fill: $sidebar-primary;
+
+    svg {
+      fill: $sidebar-primary;
+    }
+  }
+
+  .content & {
+    color: $page-primary !important;
+    fill: $page-primary;
+
+    svg {
+      fill: $page-primary;
+    }
+  }
+}
+
+.text-secondary {
+  .sidebar & {
+    color: $sidebar-secondary !important;
+  }
+
+  .content & {
+    color: $page-secondary !important;
+  }
+}
+
+.border-primary {
+  .sidebar & {
+    border-color: $sidebar-primary !important;
+  }
+
+  .content & {
+    border-color: $page-primary !important;
+  }
+}
+
+.border-secondary {
+  .sidebar & {
+    border-color: $sidebar-secondary !important;
+  }
+
+  .content & {
+    border-color: $page-secondary !important;
+  }
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+
+  svg {
+    width: $icon-size;
+    height: $icon-size;
+    align-self: flex-start;
+  }
+
+  svg + div,
+  svg + span,
+  svg + a {
+    flex: 1;
+    margin-left: 6px;
+    word-wrap: break-word;
+    min-width: 0;
+  }
+}
