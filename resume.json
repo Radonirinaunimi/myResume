@@ -30,11 +30,10 @@
   },
   "work": [
     {
-      "name": "Universita degli Studi di Milano, Dipartimento di Fisica",
+      "company": "Universita degli Studi di Milano, Dipartimento di Fisica",
+      "website": "https://btcassessors.com",
+      "image": "https://imgur.com/Jg7ADq1.png",
       "position": "Teaching Assistant for Fisica Teorica I (QFT I)",
-      "location": "Milano, Italy",
-      "image": "https://github.com/Radonirinaunimi/myResume/blob/material-design/logos/unimi.png",
-      "url": "https://www.unimi.it/it",
       "startDate": "2019-01-01",
       "endDate": "2019-07-30",
       "summary": "holding office hours, giving tutorials, providing corrections for exams"
