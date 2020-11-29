@@ -31,36 +31,36 @@
   "work": [
     {
       "company": "Universita degli Studi di Milano, Dipartimento di Fisica",
-      "website": "https://btcassessors.com",
-      "image": "https://imgur.com/Jg7ADq1.png",
+      "website": "https://www.unimi.it/",
+      "image": "https://i.imgur.com/2lvpg8o.png",
       "position": "Teaching Assistant for Fisica Teorica I (QFT I)",
       "startDate": "2019-01-01",
       "endDate": "2019-07-30",
       "summary": "holding office hours, giving tutorials, providing corrections for exams"
     },
     {
-      "name": "University of Cape Town, Department of Physics",
-      "position": "Lab Demonstrator and Tutor for 3rd Medecine and 1st Physics",
-      "location": "Cape Town, South Africa",
-      "url": "",
+      "company": "University of Cape Town, Department of Physics",
+      "website": "https://www.uct.ac.za/",
+      "image": "https://i.imgur.com/YOzSXy3.png",
+      "position": "Lab Demonstrator and Tutor for 3rd Medecine and 1st Engineers",
       "startDate": "2018-02-01",
       "endDate": "2018-07-30",
       "summary": "supervising Labs, giving white board tutorials, grading lab reports"
     },
     {
-      "name": "University of Cape Town",
+      "company": "University of Cape Town, Department of Physics",
+      "website": "https://www.uct.ac.za/",
+      "image": "https://i.imgur.com/YOzSXy3.png",
       "position": "Teaching Assistant for QFT II (PHY4000W)",
-      "location": "Cape Town, South Africa",
-      "url": "",
       "startDate": "2017-10-01",
       "endDate": "2017-12-20",
       "summary": "holding office hours, grading homeworks & exams"
     },
     {
-      "name": "European Organization for Nuclear Research (CERN)",
+      "company": "European Organization for Nuclear Research (CERN)",
+      "website": "https://home.cern/",
+      "image": "https://i.imgur.com/AmzUuuS.png",
       "position": "Summer Intern",
-      "location": "Geneva, Swtizerland",
-      "url": "",
       "startDate": "2016-06-14",
       "endDate": "2016-08-04",
       "summary": "developing a parton shower library"
@@ -70,39 +70,42 @@
   "education": [
     {
       "institution": "Universita degli Studi di Milano",
-      "url": "https://www.unimi.it/it",
+      "shortName": "UNIMI",
+      "image": "https://i.imgur.com/2lvpg8o.png",
+      "website": "https://www.unimi.it/it",
       "area": "Theoretical Physics",
       "studyType": "PhD",
       "startDate": "2018-10-01"
     },
     {
       "institution": "University of Cape Town",
-      "url": "https://www.uct.ac.za/",
+      "shortName": "UCT",
+      "image": "https://i.imgur.com/YOzSXy3.png",
+      "website": "https://www.uct.ac.za/",
       "area": "Theoretical Physics",
       "studyType": "MSc.",
       "startDate": "2017-10-01",
-      "endDate": "2018-08-30",
-      "gpa": "4.0 (Cum Laude)"
+      "endDate": "2018-08-30"
     },
     {
       "institution": "Stellenbosch University",
-      "url": "http://www.sun.ac.za/english",
+      "shortName": "USC",
+      "image": "https://i.imgur.com/HeT09Wo.png",
+      "website": "http://www.sun.ac.za/english",
       "area": "Mathematical Sciences",
       "studyType": "MSc.",
       "startDate": "2016-09-01",
-      "endDate": "2017-06-30",
-      "gpa": "4.0 (Cum Laude)",
-      "courses": ["Theoretical Physics", "Pure Mathematics", "Computer Science"]
+      "endDate": "2017-06-30"
     },
     {
       "institution": "University of Antananarivo",
-      "url": "http://www.sun.ac.za/english",
+      "shortName": "UA",
+      "image": "https://i.imgur.com/RGdERsk.png",
+      "website": "http://www.sun.ac.za/english",
       "area": "Theoretical and Applied Physics",
       "studyType": "Maitrise",
       "startDate": "2012-01-01",
-      "endDate": "2016-05-31",
-      "gpa": "4.0 (Cum Laude)",
-      "courses": ["Theoretical Physics", "Pure Mathematics", "Chemistry", "Numerical Analysis"]
+      "endDate": "2016-05-31"
     }
   ],
   "awards": [],
