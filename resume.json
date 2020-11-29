@@ -105,6 +105,16 @@
       "area": "Theoretical and Applied Physics",
       "studyType": "Maitrise",
       "startDate": "2012-01-01",
+      "endDate": "2014-11-31"
+    },
+    {
+      "institution": "University of Antananarivo",
+      "shortName": "UA",
+      "image": "https://i.imgur.com/RGdERsk.png",
+      "website": "http://www.univ-antananarivo.mg/",
+      "area": "Physics and Chemistry",
+      "studyType": "BSc",
+      "startDate": "2015-01-01",
       "endDate": "2016-05-31"
     }
   ],
