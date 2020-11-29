@@ -101,7 +101,7 @@
       "institution": "University of Antananarivo",
       "shortName": "UA",
       "image": "https://i.imgur.com/RGdERsk.png",
-      "website": "http://www.sun.ac.za/english",
+      "website": "http://www.univ-antananarivo.mg/",
       "area": "Theoretical and Applied Physics",
       "studyType": "Maitrise",
       "startDate": "2012-01-01",
@@ -122,7 +122,7 @@
     {
       "name": "Software Development",
       "level": "Master",
-      "keywords": ["Fortran", "C++", "Python", "Julia"]
+      "keywords": ["FORTRAN", "C++", "Python", "Julia"]
     },
     {
       "name": "Web Development",
@@ -132,7 +132,7 @@
     {
       "name": "Operating System & Scripting",
       "level": "Master",
-      "keywords": ["GNU/Linux", "Bash", "Fish"]
+      "keywords": ["GNU/Linux", "Arch", "Windows", "Bash", "Fish"]
     }
   ],
   "languages": [
@@ -162,14 +162,35 @@
   "references": [],
   "projects": [
     {
-      "name": "Compression of Probability Distribution Functions (PDFs)",
-      "description": "pycompressor",
+      "name": "CombResum",
+      "description": "Combined Small-pT and Threshold resummation",
+      "highlights": [],
+      "keywords": ["QCD", "Resummation", "Collider Physics", "C++"],
+      "startDate": "2019-01-01",
+      "url": "https://arxiv.org/abs/1701.01464",
+      "roles": ["Developer", "Maintainer"],
+      "entity": "N3PDF",
+      "type": "application"
+    },
+    {
+      "name": "pyCompressor",
+      "description": "Compression of Probability Distribution Functions (PDFs)",
       "highlights": [],
       "keywords": ["Probability distribution", "Compression", "Statistics", "Python"],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
+      "startDate": "2020-03-01",
       "url": "https://n3pdf.github.io/pycompressor/",
-      "roles": ["Developer", "Designer"],
+      "roles": ["Developer", "Maintainer"],
+      "entity": "N3PDF",
+      "type": "application"
+    },
+    {
+      "name": "GanPDFs",
+      "description": "Generating synthetic PDFs with deep learning",
+      "highlights": [],
+      "keywords": ["Deep learning", "Generative Models", "Statistics", "Python"],
+      "startDate": "2019-03-01",
+      "url": "https://n3pdf.github.io/ganpdfs/",
+      "roles": ["Developer", "Maintainer"],
       "entity": "N3PDF",
       "type": "application"
     }
