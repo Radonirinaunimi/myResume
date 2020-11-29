@@ -131,17 +131,17 @@
   "skills": [
     {
       "name": "Software Development",
-      "level": "Master",
+      "level": "Expert",
       "keywords": ["FORTRAN", "C++", "Python", "Julia"]
     },
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "Expert",
       "keywords": ["HTML", "CSS", "Javascript"]
     },
     {
       "name": "Operating System & Scripting",
-      "level": "Master",
+      "level": "Expert",
       "keywords": ["GNU/Linux", "Arch", "Windows", "Bash", "Fish"]
     }
   ],
