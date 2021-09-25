@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Personal Resume",
   "main": "index.js",
-  "repository": "https://github.com/AleCandido/cv/",
+  "repository": "https://github.com/Radonirinaunimi/myResume/",
   "author": "Tanjona R. Rabemananjara <tanjona.rabemananjara@mi.infn.it>",
   "license": "MIT",
   "dependencies": {
