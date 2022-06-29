@@ -1,11 +1,6 @@
 name: "Publish"
 
-on:
-  push:
-    branches:
-      - '**'
-      - '!main'
-  workflow_dispatch:
+on: [push]
 
 jobs:
   publish_resume:
