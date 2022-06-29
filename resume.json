@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Tanjona R. Rabemananjara",
-    "label": "Theoretical Physics, Research Associate",
+    "label": " Research Associate in Theoretical Physics & Machine Learning",
     "image": "https://avatars.githubusercontent.com/Radonirinaunimi",
     "email": "t.r.rabemananjara@vu.nl",
     "phone": "+31-644-4201-84",
@@ -31,7 +31,7 @@
   "work": [
     {
       "name": "Vrije Universiteit (VU) van Amsterdam",
-      "position": "Research Associate",
+      "position": "Research Associate (VU Amsterdam)",
       "location": "Amsterdam, The Netherlands",
       "url": "",
       "startDate": "2021-11-01",
@@ -39,7 +39,7 @@
     },
     {
       "name": "Nationaal Instituut voor Subatomaire Fysica (NIKHEF)",
-      "position": "Research Associate",
+      "position": "Research Associate (NIKHEF)",
       "location": "Amsterdam, The Netherlands",
       "url": "",
       "startDate": "2021-11-01",
@@ -100,6 +100,7 @@
       "studyType": "PhD",
       "startDate": "2018-10-01",
       "endDate": "2021-09-30",
+      "gpa": "Cum Laude"
     },
     {
       "institution": "University of Cape Town",
@@ -132,13 +133,13 @@
   "awards": [],
   "publications": [
     {
-      "name": "The PDF4LHC21 combination of global PDF fits for the LHC Run III",
+      "name": "The PDF4LHC21 combination of global PDF fits for the LHC",
       "publisher": "EPJC",
       "releaseDate": "2022-03-10",
       "url": "https://lss.fnal.gov/archive/2022/pub/fermilab-pub-22-121-qis-scd-t.pdf"
     },
     {
-      "name": "nNNPDF3.0: evidence for a modified partonic structure in heavy nuclei",
+      "name": "nNNPDF3.0: evidence for a modified partonic structure",
       "publisher": "EPJC",
       "releaseDate": "2022-01-28",
       "url": "https://doi.org/10.1140/epjc/s10052-022-10417-7"
@@ -150,7 +151,7 @@
       "url": "https://link.springer.com/article/10.1140/epjc/s10052-021-09338-8"
     },
     {
-      "name": "Phenomenology of combined resummation for Higgs and Drell-Yan",
+      "name": "Phenomenology of combined resummation for Higgs and DY",
       "publisher": "JHEP",
       "releaseDate": "2020-07-17",
       "url": "https://link.springer.com/article/10.1007/JHEP12(2020)073"
@@ -165,8 +166,7 @@
         "C++",
         "Python",
         "Julia",
-        "Rust",
-        "Mathematica"
+        "Rust"
       ]
     },
     {

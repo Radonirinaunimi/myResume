@@ -1,913 +1,902 @@
 <!doctype html>
 <html>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-	<title>Tanjona R. Rabemananjara</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic' rel='stylesheet' type='text/css'>
-	<style>
-		/********************************************
-* 	reset from
-* 	http://meyerweb.com/eric/tools/css/reset/
-*******************************************/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>Tanjona R. Rabemananjara -  Research Associate in Theoretical Physics &amp; Machine Learning</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10k.ttf) format('truetype');
 }
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3FZQNVED7rKGKxtqIqX5Ectllte10k.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+
+html {
+  background: white;
+}
+
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* Custom reset */
-.main-summary p,
-#publications .item,
-#skills .item,
-#languages .item,
-#references .item,
-#interests .item{
-	margin: 0;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: white;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B;
 }
 
-
-/****************
-*		SMARTPHONES
-****************/
-em {
-	color: #757575;
-}
-p {
-	margin: 1em 0;
-}
-blockquote {
-	margin: 0;
-	margin-bottom: 1em;
-}
-strong {
-	font-weight: 700;
-	font-size: 1.1em;
-}
-ul {
-	margin-top: 1em;
-}
-div.item {
-	margin: 1em 0 2em;
-	padding-bottom: 2em;
-}
-div.item:last-of-type {
-	margin: 0;
-	border-bottom: none;
-	padding-bottom: 0;
-}
-p {
-	text-align: justify;
-}
-
-
-/* Headers */
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
-}
-h1 {
-	font-size: 2.5rem;
-}
+h1,
 h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: none;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+
 h3 {
-	font-size: 1rem;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px;
 }
+
+h3.bold {
+  font-weight: 700;
+}
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+h4.bold {
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+h5.italic {
+  font-style: italic;
+}
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
 a {
-	color: #EB5F51;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: inherit;
 }
+
 a:hover {
-	text-decoration: underline;
+  color: #2895F1;
 }
 
-/* Layout */
-body {
-	background: #f2f2f2;
-	line-height: 1.6;
-	font-size: 13px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+a .fa-external-link {
+  font-size: 10px;
+  vertical-align: text-top;
 }
 
-#resume {
-	padding: 1rem 0;
-	margin: 1rem auto;
+p,
+li {
+  font-size: 11px;
 }
 
-#header {
-	padding: 0 1em;
-	margin-bottom: 1em;
+blockquote {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px;
 }
 
-#resume > header div {
-	display: table;
-	padding-left: 0.5em;
+em {
+  color: #999;
 }
 
-#resume > header div.middle {
-	padding-top: 1.5em;
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px;
 }
 
-header img {
-	display: block;
-	width: 10em;
-	border-radius: 0.275em;
-	float: right;
+ul li {
+  padding-left: 10px;
 }
 
-header .name {
-	line-height: 1;
+ul.minimal {
+  list-style: none;
+  padding: 0;
 }
 
-header .label {
-	font-size: 1.5rem;
-	font-weight: 400;
-	color: #757575;
+ul.minimal li {
+  margin-bottom: 3px;
+  padding-left: 0;
 }
 
-section:not(.section) {
-	padding: .5em 1rem;
+ul.two-column {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 28px;
+  column-count: 2;
+  column-gap: 28px;
 }
 
-section#references {
-	border-bottom:none;
+ul.two-column li {
+  padding-left: 0;
 }
 
-section#basics {
-	background: inherit;
-	margin-bottom: 0;
+@page {
+  size: A4;
 }
 
-section#skills {
-	padding-bottom: 0;
+.container {
+  padding-top: 20px;
 }
 
-section#education,
-section#work,
-.main-summary section {
-	padding-bottom: 1em;
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817A;
 }
 
-header::after {
-	display: table;
-	content: " ";
-	clear: both;
+.pull-left {
+  float: left;
 }
 
-h2.section-title {
-	text-align: left;
-	font-size: 1rem;
-	font-weight: 400;
-	color: #757575;
-	padding: 1em 1rem 0;
-	margin-bottom: 0.1275em;
+.pull-right {
+  float: right;
 }
 
-.date {
-	font-weight: 700;
-	color: #757575;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.position, .area, .institution {
-	font-weight: 700;
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px;
 }
 
-#interests .item, #languages .item {
-	padding: 0 1em 1em 0;
-	border-bottom: none;
+.profile-pic img {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  border: 2px solid #56817A;
 }
 
-.website::before {
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	font-size: inherit;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-decoration: none;
-	min-width: 1.25em;
-	margin-right: 0.25em;
-	text-align: center;
-	content: '\f14c';
+.summary {
+  margin: 5px 0 5px;
 }
 
-#profiles, #skills, #interests, #languages {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
-	-webkit-justify-content: flex-start;
-	justify-content: flex-start;
-  padding-bottom: 1em;
+.sublink {
+  font-size: 70%;
+  font-weight: 200;
+  color: dimgray;
 }
 
-#profiles, #location {
-	box-shadow: none;
-	padding: 0;
+.capitalize {
+  text-transform: capitalize;
 }
 
-#profiles .item {
-	margin: 0;
-	padding: 0;
-	padding-right: 1em;
-	border-bottom: none;
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #56817A;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
 }
 
-#interests ul {
-	margin-top: 0.5em;
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-#publications .name {
-	font-style: italic;
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word;
 }
 
-.courses li, .keywords li{
-	display: inline-block;
-	background: #f0f0f0;
-	font-size: 0.9em;
-	line-height: 1;
-	color: #333;
-	padding: 0.4em 0.8em;
-	border-bottom: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	border-radius: 3px;
+.right-column {
+  width: auto;
+  overflow: hidden;
 }
 
-#publications .date {
-	font-weight: normal;
-	color: #000;
+.item {
+  margin-bottom: 15px;
 }
 
-#skills .item {
-	min-width: 15em;
-	padding: 0 .5em .8em 0;
-	border-bottom: none;
+.item:last-child {
+  margin-bottom: 0;
 }
 
+@media print {
+  body {
+    margin: 0;
+  }
 
-/* Skills chart */
-#skills .level .bar {
-	border: 1px solid #ddd;
-	display: block;
-	width: 10em;
-	height: 5px;
-	margin: 0em 0 1em 0;
-	position: relative;
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none;
+  }
+
+  .page .resume-header,
+  .page .resume-content {
+    padding: 0 22px 0 34px;
+  }
+
+  .container {
+    page-break-inside: avoid;
+  }
+
+  .work-container .item {
+    page-break-inside: avoid;
+  }
+
+  .fa-external-link {
+    display: none;
+  }
 }
 
-#skills .level .bar::after {
-	position: absolute;
-	content: " ";
-	top: 0;
-	left: 0;
-	background: black;
-	height: 5px;
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px;
 }
 
-#skills .level.beginner .bar::after {
-	background: #EB5F51;
-	width: 2.5em;
+.info-tag-container .fa {
+  font-size: 14px;
+  width: 12px;
+  margin-right: 5px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-#skills .level.intermediate .bar::after {
-	background: #ffdf1f;
-	width: 5em;
+.info-tag-container .fa.fa-map-marker {
+  font-size: 16px;
 }
 
-#skills .level.advanced .bar::after {
-	background: #59C596;
-	width: 7.5em;
+.info-tag-container .fa.fa-mobile {
+  font-size: 18px;
 }
 
-#skills .level.master .bar::after {
-	background: #5CB85C;
-	width: 10em;
+.info-tag-container .fa.fa-envelope-o {
+  font-size: 12px;
 }
 
-#references .item {
-	padding-left: 1em;
-	border-left: 5px solid #EB5F51;
+.info-tag-container .fa.fa-desktop {
+  font-size: 11px;
 }
 
-.fa.social {
-	margin-right: 0.25em;
-	font-size: 1.1em;
+.info-tag-container .fa.fa-external-link {
+  width: auto;
+  font-size: inherit;
+  vertical-align: text-top;
 }
 
-/* Social Media Brand Colors */
-.google-plus {
-	color: #dd4b39;
+.info-tag-container .info-text {
+  font-size: 12px;
+  text-transform: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 139px;
 }
 
-.tumblr {
-	color:#32506d;
+.references-container .fa {
+  font-size: 14px;
 }
 
-.foursquare {
-	color:  #0072b1;
+.education-container .location {
+  padding-bottom: 6px;
+  font-weight: 400;
 }
 
-.facebook {
-	color: #3b5998;
+.education-container .specialization {
+  text-transform: none;
+  font-style: italic;
 }
 
-.linkedin {
-	color: #007bb6;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.pinterest {
-	color: #cb2027;
+.main-skill {
+  font-size: 80%;
 }
 
-.dribbble {
-	color: #ea4c89;
+.skill {
+  margin: .15em;
+  padding: .15em;
+  background: ghostwhite;
+  border-radius: 5px;
 }
+</style>
+</head>
 
-.instagram {
-	color: #517fa4;
-}
-
-.twitter {
-	color: #00aced;
-}
-
-.soundcloud {
-	color: #ff3a00;
-}
-
-.wordpress {
-	color: #21759b;
-}
-
-.youtube {
-	color: #bb0000;
-}
-
-.github {
-	color: #171515;
-}
-
-.stack-overflow {
-	color: #828386;
-	position: relative;
-}
-
-.flickr {
-	color: #ff0084;
-}
-
-.stack-overflow::after {
-	position: absolute;
-	left: 0;
-	content: '\f16c';
-	color: #f68a1f;
-	overflow: hidden;
-	height: 40%;
-}
-
-/******************
-*		HELPER CLASSES
-******************/
-.fa {
-	min-width: 1.25em;
-	margin-right: 0.25em;
-	text-align: center;
-}
-
-.clear {
-	display: table;
-	clear: both;
-}
-
-
-/****************
-*		TABLET
-****************/
-@media screen and (min-width: 602px) {
-
-	#resume {
-		width: 550px;
-		margin: 0 auto;
-	}
-	section > header > h3 {
-		float:left;
-	}
-	section > header > .date {
-		float: right;
-		line-height: 1.3;
-	}
-
-}
-
-
-/****************
-*		LAPTOP
-****************/
-@media screen and (min-width: 1025px) {
-
-	#resume {
-		width: 650px;
-		padding: 3em;
-		margin: 3em auto;
-		background: #fff;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-	}
-
-	.section {
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-flow: row wrap;
-		flex-flow: row wrap;
-		-webkit-justify-content: space-between;
-		justify-content: space-between;
-		margin-bottom: 1em;
-		margin-top: 1em;
-		border-bottom: 1px solid #eee;
-	}
-
-	.section:last-of-type {
-		border-bottom: none;
-		margin-bottom: 0;
-	}
-
-	section > header {
-		line-height: 1;
-		padding-bottom: 1em;
-	}
-
-	h2.section-title {
-		line-height: 1.1;
-		padding-top: 0;
-	}
-
-	section:not(.section) {
-		width: 34.5em;
-		padding: 0 1em 1em 0;
-		margin-top:0;
-		border: none;
-	}
-
-	section p {
-		margin: 0;
-	}
-
-	section#basics {
-		width: auto;
-		padding-top: 1em;
-		padding-left: 1em;
-		padding-bottom: 0;
-		border-top: 1px solid #eee;
-		border-bottom: 1px solid #eee;
-	}
-
-	#profiles .item{
-		padding-bottom: 1em;
-	}
-
-	div {
-		padding: 0;
-	}
-
-	#skills .item {
-		padding-left:0;
-		margin-top: 0;
-	}
-
-	div.item {
-		margin-top: 0;
-		border-bottom: 1px solid #eee;
-	}
-
-}
-
-	</style>
-
-
-	<body>
-		<div id="resume">
-				<header id="header">
-						<div>
-							<h1 class="name">Tanjona R. Rabemananjara</h1>
-							<h2 class="label">Theoretical Physics, PhD candidate</h2>
-						</div>
-
-				</header>
-
-				<section id="basics">
-
-						<div id="location">
-							<span class="fa fa-map-marker"></span>
-							<span class="address">
-								Universita degli Studi di Milano, Dipartimento di Fisica, Via Giovanni Celoria 16,
-							</span>
-							<span class="postalCode">
-								20133,
-							</span>
-							<span class="city">
-								Milano
-							</span>
-							<span class="countryCode">
-								(IT),
-							</span>
-							<span class="region">
-								Lombardia
-							</span>
-						</div>
-
-					<div id="contact">
-						<div class="email">
-							<span class="fa fa-envelope"></span>
-							<a href="mailto:tanjona.rabemananjara@mi.infn.it">tanjona.rabemananjara@mi.infn.it</a>
-						</div>
-						<div class="phone">
-							<span class="fa fa-phone-square"></span>
-							(+39) 351-230-1961
-						</div>
-					</div>
-
-
-					<div id="profiles">
-						<div class="item">
-							<span class="network fa fa-github github"></span>
-							<span class="username">
-								<span class="url">
-									<a href="https://github.com/Radonirinaunimi">Radonirinaunimi</a>
-								</span>
-							</span>
-						</div>
-						<div class="item">
-							<span class="network fa fa-linkedin linkedin"></span>
-							<span class="username">
-								<span class="url">
-									<a href="https://www.linkedin.com/in/rabemananjara-tanjona-radonirina-6ab726120/">Tanjona</a>
-								</span>
-							</span>
-						</div>
-					</div>
-				</section>
-
-				<section class="section main-summary">
-					<h2 class='section-title'>About</h2>
-					<section>
-						<p>In 2016, I was a Summer Student at the European Organization for Nuclear Research (CERN) working on the LHCb experiment. Afterward, I moved to Cape Town in South Africa where I was awarded a M.Sc. in Mathematical Sciences from Stellenbosch University (2017) followed by a M.Sc. in Theoretical Physics at the University of Cape Town (2018) both under the Supervision of Dr. W. A. Horowitz. I am currently a Ph.D. candidate at the Department of Physics of the University of Milan (Statale) working within the remarkable N3PDF group (in collab. with NNPDF) under the supervision of Prof. Stefano Forte and Dr. Stefano Carrazza and a  group of amazing people. My area of interests spans a wide range of topics in high energy particle physics (QCD, Higgs, Collider Phenomenology, Higgs physics, resummation) and machine learning.</p>
-					</section>
-				</section>
-
-				</section>
-
-				<section class="section">
-					<h2 class='section-title'>Experience</h2>
-					<section id="work">
-							<div class="date">
-								<span class="startDate">
-									January 2019
-								</span>
-								<span class="endDate">
-									- July 2019
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Teaching Assistant for Fisica Teorica I (QFT I)
-						</div>
-						<div class="summary">
-							<p>holding office hours, giving tutorials, providing corrections for exams</p>
-						</div>
-					</div>
-							<div class="date">
-								<span class="startDate">
-									February 2018
-								</span>
-								<span class="endDate">
-									- July 2018
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Lab Demonstrator and Tutor for 3rd Medecine and 1st Physics
-						</div>
-						<div class="summary">
-							<p>supervising Labs, giving white board tutorials, grading lab reports</p>
-						</div>
-					</div>
-							<div class="date">
-								<span class="startDate">
-									October 2017
-								</span>
-								<span class="endDate">
-									- December 2017
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Teaching Assistant for QFT II (PHY4000W)
-						</div>
-						<div class="summary">
-							<p>holding office hours, grading homeworks & exams</p>
-						</div>
-					</div>
-							<div class="date">
-								<span class="startDate">
-									June 2016
-								</span>
-								<span class="endDate">
-									- August 2016
-								</span>
-							</div>
-						</header>
-						<div class="item">
-						<div class="position">
-							Summer Intern
-						</div>
-						<div class="summary">
-							<p>developing a parton shower library</p>
-						</div>
-					</div>
-					</section>
-				</section>
-
-				<section class="section">
-					<h2 class='section-title'>Education</h2>
-					<section id="education">
-							<header>
-									<h3 class="institution">
-										Universita degli Studi di Milano
-									</h3>
-								<div class="date">
-									<span class="startDate">
-										2018
-									</span>
-									<span class="endDate">
-										- Present
-									</span>
-								</div>
-							</header>
-							<div class="item">
-									<div class="studyType">
-										PhD
-									</div>
-									<div class="area">
-										Theoretical Physics
-									</div>
-							</div>
-							<header>
-									<h3 class="institution">
-										University of Cape Town
-									</h3>
-								<div class="date">
-									<span class="startDate">
-										2017
-									</span>
-									<span class="endDate">
-										- 2018
-									</span>
-								</div>
-							</header>
-							<div class="item">
-									<div class="studyType">
-										MSc.
-									</div>
-									<div class="area">
-										Theoretical Physics
-									</div>
-									<div>
-										<span class="fa fa-graduation-cap"></span>
-										<span class='gpa'> GPA: 4.0 (Cum Laude)</span>
-									</div>
-							</div>
-							<header>
-									<h3 class="institution">
-										Stellenbosch University
-									</h3>
-								<div class="date">
-									<span class="startDate">
-										2016
-									</span>
-									<span class="endDate">
-										- 2017
-									</span>
-								</div>
-							</header>
-							<div class="item">
-									<div class="studyType">
-										MSc.
-									</div>
-									<div class="area">
-										Mathematical Sciences
-									</div>
-									<div>
-										<span class="fa fa-graduation-cap"></span>
-										<span class='gpa'> GPA: 4.0 (Cum Laude)</span>
-									</div>
-									<ul class="courses">
-										<li>Theoretical Physics</li>
-										<li>Pure Mathematics</li>
-										<li>Computer Science</li>
-									</ul>
-							</div>
-							<header>
-									<h3 class="institution">
-										University of Antananarivo
-									</h3>
-								<div class="date">
-									<span class="startDate">
-										2012
-									</span>
-									<span class="endDate">
-										- 2016
-									</span>
-								</div>
-							</header>
-							<div class="item">
-									<div class="studyType">
-										Maitrise
-									</div>
-									<div class="area">
-										Theoretical and Applied Physics
-									</div>
-									<div>
-										<span class="fa fa-graduation-cap"></span>
-										<span class='gpa'> GPA: 4.0 (Cum Laude)</span>
-									</div>
-									<ul class="courses">
-										<li>Theoretical Physics</li>
-										<li>Pure Mathematics</li>
-										<li>Chemistry</li>
-										<li>Numerical Analysis</li>
-									</ul>
-							</div>
-					</section>
-				</section>
-
-
-
-
-				<section class="section">
-					<h2 class='section-title'>Publications</h2>
-					<section id="publications">
-							<div class="item">
-								<span class="name">
-										Combined Resummation for Higgs and Drell--Yan
-								</span>
-									<span class="publisher">
-										in JHEP,
-									</span>
-									<span class="date">
-										1 December 2020
-									</span>
-								<div class="summary">
-									<p>Give a Brief Summary</p>
-								</div>
-							</div>
-					</section>
-				</section>
-
-				<section class="section">
-					<h2 class='section-title'>Skills</h2>
-					<section id="skills">
-						<div class="item">
-							<div class="name">
-								Software Development
-							</div>
-							<div class="level master">
-								<em>Master</em>
-								<div class="bar"></div>
-							</div>
-							<ul class="keywords">
-								<li>Fortran</li>
-								<li>C++</li>
-								<li>Python</li>
-								<li>Julia</li>
-							</ul>
-						</div>
-						<div class="item">
-							<div class="name">
-								Web Development
-							</div>
-							<div class="level master">
-								<em>Master</em>
-								<div class="bar"></div>
-							</div>
-							<ul class="keywords">
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>Javascript</li>
-							</ul>
-						</div>
-						<div class="item">
-							<div class="name">
-								Operating System &amp; Scripting
-							</div>
-							<div class="level master">
-								<em>Master</em>
-								<div class="bar"></div>
-							</div>
-							<ul class="keywords">
-								<li>GNU/Linux</li>
-								<li>Bash</li>
-								<li>Fish</li>
-							</ul>
-						</div>
-					</section>
-				</section>
-
-				<section class="section">
-					<h2 class='section-title'>Languages</h2>
-					<section id="languages">
-						<div class="item">
-							<div class="language">
-								French
-							</div>
-							<div class="fluency">
-								<em>Official Language</em>
-							</div>
-						</div>
-						<div class="item">
-							<div class="language">
-								English
-							</div>
-							<div class="fluency">
-								<em>Working Proficiency</em>
-							</div>
-						</div>
-						<div class="item">
-							<div class="language">
-								Italian
-							</div>
-							<div class="fluency">
-								<em>Basics</em>
-							</div>
-						</div>
-						<div class="item">
-							<div class="language">
-								German
-							</div>
-							<div class="fluency">
-								<em>Basics</em>
-							</div>
-						</div>
-					</section>
-				</section>
-
-				<section class="section">
-					<h2 class='section-title' class='section-title'>Interests</h2>
-					<section id="interests">
-						<div class="item">
-							<div class="name">
-								Books
-							</div>
-							<ul class="keywords">
-								<li>Politics</li>
-								<li>Philosophy</li>
-							</ul>
-						</div>
-					</section>
-				</section>
-
-		</div>
-	</body>
+<body>
+  <main id="resume" class="page">
+    <header class="resume-header clearfix">
+        <div class="profile-header pull-left">
+            <h1>Tanjona R. Rabemananjara</h1>
+            <h2> Research Associate in Theoretical Physics &amp; Machine Learning</h2>
+        </div>
+        <div class="profile-pic pull-right">
+        </div>
+    </header>
+    <div class="resume-content">
+      <aside class="left-column">
+        <div class="container about-container">
+            <div class="title">
+                <h3>About</h3>
+                <div class="keyline"></div>
+            </div>
+                <div class="info-tag-container">
+                    <i class="fa fa-map-marker"></i>
+                
+                        <h6 class="info-text">Science Park 105 Amsterdam North Holland 1098 ND</h6>
+                </div>
+        
+        
+                <div class="info-tag-container">
+                    <i class="fa fa-envelope-o"></i>
+                
+                        <h6 class="info-text">
+                            <a href="mailto:t.r.rabemananjara@vu.nl" target="_blank">
+                                t.r.rabemananjara@vu.nl
+                            </a>
+                        </h6>
+                </div>
+        
+                <div class="info-tag-container">
+                    <i class="fa fa-mobile"></i>
+                
+                        <h6 class="info-text">
+                            <a href="http://radonirinaunimi.github.io" target="_blank">
+                                +31-644-4201-84
+                            </a>
+                        </h6>
+                </div>
+        
+        
+                                 <div class="info-tag-container">
+                                     <i class="fa fa-github"></i>
+                                 
+                                         <h6 class="info-text">
+                                             <a href="https://github.com/Radonirinaunimi" target="_blank">
+                                                 Radonirinaunimi
+                                             </a>
+                                         </h6>
+                                 </div>
+                                <div class="info-tag-container">
+                                    <i class="fa fa-linkedin-square"></i>
+                                
+                                        <h6 class="info-text">
+                                            <a href="https://www.linkedin.com/in/tanjona-r-rabemananjara-6ab726120/" target="_blank">
+                                                Tanjona
+                                            </a>
+                                        </h6>
+                                </div>
+        </section>
+            <div class="skills-container">
+                    <section class="container">
+                            <div class="title">
+                                <h3>Software Development</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Master</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">Fortran</h6>
+                                    <h6 class="main-skill skill">C++</h6>
+                                    <h6 class="main-skill skill">Python</h6>
+                                    <h6 class="main-skill skill">Julia</h6>
+                                    <h6 class="main-skill skill">Rust</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>Web Development</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Master</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">HTML</h6>
+                                    <h6 class="main-skill skill">CSS</h6>
+                                    <h6 class="main-skill skill">Javascript</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>Operating System &amp; Scripting</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Master</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">GNU/Linux</h6>
+                                    <h6 class="main-skill skill">Bash</h6>
+                                    <h6 class="main-skill skill">Fish</h6>
+                                    <h6 class="main-skill skill">Zsh</h6>
+                            </div>
+                    </section>
+            </div>
+            <div class="container languages-container">
+                <div class="title">
+                    <h3>Languages</h3>
+                    <div class="keyline"></div>
+                </div>
+                <ul class="minimal">
+                        <li>
+                            <h6>French <em>(Official Language)</em></h6>
+                        </li>
+                        <li>
+                            <h6>English <em>(Working Proficiency)</em></h6>
+                        </li>
+                        <li>
+                            <h6>Italian <em>(Basics)</em></h6>
+                        </li>
+                        <li>
+                            <h6>German <em>(Basics)</em></h6>
+                        </li>
+                </ul>
+            </div>
+            <div class="container interests-container">
+                <div class="title">
+                    <h3>Interests</h3>
+                    <div class="keyline"></div>
+                </div>
+                    <section class="item">
+                            <h4 class="bold">Books</h4>
+                            <ul class="minimal">
+                                    <li>Politics</li>
+                                    <li>Philosophy</li>
+                            </ul>
+                    </section>
+            </div>
+      </aside>
+      <div class="right-column">
+                <div class="container summary-container">
+                    <div class="title">
+                        <h3>Summary</h3>
+                        <div class="keyline"></div>
+                    </div>            <p class="summary">
+                        In 2016, I was a Summer Student at the European Organization for Nuclear Research (CERN) working on the LHCb experiment. Afterward, I moved to Cape Town in South Africa where I was awarded a M.Sc. in Mathematical Sciences from Stellenbosch University (2017) followed by a M.Sc. in Theoretical Physics at the University of Cape Town (2018) both under the Supervision of Dr. W. A. Horowitz. I then moved on to complete a Ph.D. in Theoretical Physics at the Department of Physics of the University of Milan (Statale) working within the remarkable N3PDF group (in collab. with NNPDF) under the supervision of Prof. Stefano Forte and Dr. Stefano Carrazza. I am currently a Research Associate at the Vrije Universiteit (VU) and NIKHEF in Amsterdam. My area of interests spans a wide range of topics in high energy particle physics (QCD, Higgs, Collider Phenomenology, Higgs physics, resummation) and machine learning.
+                    </p>
+                </div>
+        <div class="container work-container">
+            <div class="title">
+                <h3>Experience</h3>
+                <div class="keyline"></div>
+            </div>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Research Associate (VU Amsterdam)
+                        </h3>
+                        <h5 class="italic pull-right">
+                                    <span class="startDate">11/2021</span>
+                                <span class="endDate"> - Present</span>
+                        </h5>
+                    </div>
+        
+        
+        
+                    <p class="summary">developing machine learning frameworks for particle physics</p>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Research Associate (NIKHEF)
+                        </h3>
+                        <h5 class="italic pull-right">
+                                    <span class="startDate">11/2021</span>
+                                <span class="endDate"> - Present</span>
+                        </h5>
+                    </div>
+        
+        
+        
+                    <p class="summary">developing machine learning frameworks for particle physics</p>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Teaching Assistant for Fisica Teorica I (QFT I)
+                        </h3>
+                        <h5 class="italic pull-right">
+                                    <span class="startDate">01/2021</span>
+                                        <span class="endDate"> - 07/2021</span>
+                        </h5>
+                    </div>
+        
+        
+        
+                    <p class="summary">holding office hours, giving tutorials, providing corrections for exams</p>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Teaching Assistant for Fisica Teorica I (QFT I)
+                        </h3>
+                        <h5 class="italic pull-right">
+                                    <span class="startDate">01/2019</span>
+                                        <span class="endDate"> - 07/2019</span>
+                        </h5>
+                    </div>
+        
+        
+        
+                    <p class="summary">holding office hours, giving tutorials, providing corrections for exams</p>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Lab Demonstrator and Tutor
+                        </h3>
+                        <h5 class="italic pull-right">
+                                    <span class="startDate">02/2018</span>
+                                        <span class="endDate"> - 07/2018</span>
+                        </h5>
+                    </div>
+        
+        
+        
+                    <p class="summary">supervising Labs, giving white board tutorials, grading lab reports</p>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Teaching Assistant for QFT II (PHY4000W)
+                        </h3>
+                        <h5 class="italic pull-right">
+                                    <span class="startDate">10/2017</span>
+                                        <span class="endDate"> - 12/2017</span>
+                        </h5>
+                    </div>
+        
+        
+        
+                    <p class="summary">holding office hours, grading homeworks &amp; exams</p>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                Summer Intern
+                        </h3>
+                        <h5 class="italic pull-right">
+                                    <span class="startDate">06/2016</span>
+                                        <span class="endDate"> - 08/2016</span>
+                        </h5>
+                    </div>
+        
+        
+        
+                    <p class="summary">developing a parton shower library</p>
+        
+                </section>
+        </div>
+        <div class="container education-container">
+            <div class="title">
+            <h3>Education</h3>
+            <div class="keyline"></div>
+        </div> 
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    Universita degli Studi di Milano
+            </h3>
+            <h5 class="italic pull-right">
+                        <span class="startDate">2018</span>
+                            <span class="endDate"> - 2021</span>
+            </h5>
+        </div>
+         
+                <h4>PhD Theoretical Physics</h4>
+        
+                <h5>Cum Laude</h5>
+                      </section>
+        
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    University of Cape Town
+            </h3>
+            <h5 class="italic pull-right">
+                        <span class="startDate">2017</span>
+                            <span class="endDate"> - 2018</span>
+            </h5>
+        </div>
+         
+                <h4>MSc. Theoretical Physics</h4>
+        
+                <h5>4.0 (Cum Laude)</h5>
+                      </section>
+        
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    Stellenbosch University
+            </h3>
+            <h5 class="italic pull-right">
+                        <span class="startDate">2016</span>
+                            <span class="endDate"> - 2017</span>
+            </h5>
+        </div>
+         
+                <h4>MSc. Mathematical Sciences</h4>
+        
+                <h5>4.0 (Cum Laude)</h5>
+                      </section>
+        
+            <section class="item">
+                <div class="section-header clearfix">
+            <h3 class="bold pull-left">
+                    University of Antananarivo
+            </h3>
+            <h5 class="italic pull-right">
+                        <span class="startDate">2012</span>
+                            <span class="endDate"> - 2016</span>
+            </h5>
+        </div>
+         
+                <h4>Maitrise Theoretical and Applied Physics</h4>
+        
+                <h5>4.0 (Cum Laude)</h5>
+                      </section>
+        </div>
+        <div class="container project-container">
+            <div class="title">
+                <h3>Projects</h3>
+                <div class="keyline"></div>
+            </div>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://n3pdf.github.io/pycompressor/" target="_blank">
+                                    Approximate N3LO Higgs pT spectra
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                        </h5>
+                    </div>
+                      <h4>
+                        HpT_n3LO
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">QCD</h6>
+                            <h6 class="skill">Phenomenology</h6>
+                            <h6 class="skill">C++</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://github.com/N3PDF/HpT-MON" target="_blank">
+                                    Higgs boson spectra in momentum and Mellin space
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                        </h5>
+                    </div>
+                      <h4>
+                        HpT-MON
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">QCD</h6>
+                            <h6 class="skill">Phenomenology</h6>
+                            <h6 class="skill">C++</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://n3pdf.github.io/pycompressor/" target="_blank">
+                                    Compression code for PDF replicas
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                        </h5>
+                    </div>
+                      <h4>
+                        pycompressor
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">Probability distribution</h6>
+                            <h6 class="skill">Compression</h6>
+                            <h6 class="skill">Statistics</h6>
+                            <h6 class="skill">Python</h6>
+                    </div>
+        
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold pull-left">
+                                <a href="https://n3pdf.github.io/ganpdfs/" target="_blank">
+                                    Generative Adversarial Networks (GANs) for MC PDF replicas
+                                </a>
+                        </h3>
+                        <h5 class="italic pull-right">
+                        </h5>
+                    </div>
+                      <h4>
+                        ganpdfs
+                      </h4>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">Probability distribution</h6>
+                            <h6 class="skill">Statistics</h6>
+                            <h6 class="skill">Python</h6>
+                    </div>
+        
+        
+                </section>
+        </div>
+        <div class="container publications-container">
+            <div class="title">
+                <h3>Publications</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            The PDF4LHC21 combination of global PDF fits for the LHC
+                    </h3>
+                    <h5 class="italic pull-right">
+                            03/2022
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">EPJC</h5>
+        
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            nNNPDF3.0: evidence for a modified partonic structure
+                    </h3>
+                    <h5 class="italic pull-right">
+                            01/2022
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">EPJC</h5>
+        
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            Compressing PDF sets using generative adversarial networks
+                    </h3>
+                    <h5 class="italic pull-right">
+                            04/2021
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">EPJC</h5>
+        
+        
+            </section>
+            <section class="item">
+                <div class="section-header clearfix">
+                    <h3 class="bold pull-left">
+                            Phenomenology of combined resummation for Higgs and DY
+                    </h3>
+                    <h5 class="italic pull-right">
+                            07/2020
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">JHEP</h5>
+        
+        
+            </section>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
 
 </html>
