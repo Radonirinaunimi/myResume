@@ -7,13 +7,13 @@
     "email": "tanjona.rabemananjara@mi.infn.it",
     "phone": "(+39) 351-230-1961",
     "url": "http://radonirinaunimi.github.io",
-    "summary": "In 2016, I was a Summer Student at the European Organization for Nuclear Research (CERN) working on the LHCb experiment. Afterward, I moved to Cape Town in South Africa where I was awarded a M.Sc. in Mathematical Sciences from Stellenbosch University (2017) followed by a M.Sc. in Theoretical Physics at the University of Cape Town (2018) both under the Supervision of Dr. W. A. Horowitz. I am currently a Ph.D. candidate at the Department of Physics of the University of Milan (Statale) working within the remarkable N3PDF group (in collab. with NNPDF) under the supervision of Prof. Stefano Forte and Dr. Stefano Carrazza. My area of interests spans a wide range of topics in high energy particle physics (QCD, Higgs, Collider Phenomenology, Higgs physics, resummation) and machine learning.",
+    "summary": "In 2016, I was a Summer Student at the European Organization for Nuclear Research (CERN) working on the LHCb experiment",
     "location": {
-      "address": "Universita degli Studi di Milano, Dipartimento di Fisica, Via Giovanni Celoria 16",
-      "postalCode": "20133",
-      "city": "Milano",
-      "countryCode": "IT",
-      "region": "Lombardia"
+      "address": "Science Park 105",
+      "postalCode": "1098",
+      "city": "Amsterdam",
+      "countryCode": "ND",
+      "region": "North Holland"
     },
     "profiles": [
       {
@@ -24,11 +24,20 @@
       {
         "network": "LinkedIn",
         "username": "Tanjona",
-        "url": "https://www.linkedin.com/in/rabemananjara-tanjona-radonirina-6ab726120/"
+        "url": "https://www.linkedin.com/in/tanjona-r-rabemananjara-6ab726120/"
       }
     ]
   },
   "work": [
+    {
+      "name": "Universita degli Studi di Milano, Dipartimento di Fisica",
+      "position": "Teaching Assistant for Fisica Teorica I (QFT I)",
+      "location": "Milano, Italy",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": "2021-07-30",
+      "summary": "holding office hours, giving tutorials, providing corrections for exams"
+    },
     {
       "name": "Universita degli Studi di Milano, Dipartimento di Fisica",
       "position": "Teaching Assistant for Fisica Teorica I (QFT I)",
@@ -40,7 +49,7 @@
     },
     {
       "name": "University of Cape Town, Department of Physics",
-      "position": "Lab Demonstrator and Tutor for 3rd Medecine and 1st Physics",
+      "position": "Lab Demonstrator and Tutor",
       "location": "Cape Town, South Africa",
       "url": "",
       "startDate": "2018-02-01",
@@ -92,11 +101,6 @@
       "startDate": "2016-09-01",
       "endDate": "2017-06-30",
       "gpa": "4.0 (Cum Laude)",
-      "courses": [
-        "Theoretical Physics",
-        "Pure Mathematics",
-        "Computer Science"
-      ]
     },
     {
       "institution": "University of Antananarivo",
@@ -106,22 +110,33 @@
       "startDate": "2012-01-01",
       "endDate": "2016-05-31",
       "gpa": "4.0 (Cum Laude)",
-      "courses": [
-        "Theoretical Physics",
-        "Pure Mathematics",
-        "Chemistry",
-        "Numerical Analysis"
-      ]
     }
   ],
   "awards": [],
   "publications": [
     {
-      "name": "Combined Resummation for Higgs and Drell--Yan",
+      "name": "The PDF4LHC21 combination of global PDF fits for the LHC Run III",
+      "publisher": "EPJC",
+      "releaseDate": "2022-03-10",
+      "url": "https://lss.fnal.gov/archive/2022/pub/fermilab-pub-22-121-qis-scd-t.pdf",
+    },
+    {
+      "name": "nNNPDF3.0: evidence for a modified partonic structure in heavy nuclei",
+      "publisher": "EPJC",
+      "releaseDate": "2022-01-28",
+      "url": "https://doi.org/10.1140/epjc/s10052-022-10417-7",
+    },
+    {
+      "name": "Compressing PDF sets using generative adversarial networks",
+      "publisher": "EPJC",
+      "releaseDate": "2021-04-09",
+      "url": "https://link.springer.com/article/10.1140/epjc/s10052-021-09338-8",
+    },
+    {
+      "name": "Phenomenology of combined resummation for Higgs and Drell-Yan",
       "publisher": "JHEP",
-      "releaseDate": "2020-12-01",
-      "url": "http://en.wikipedia.org/wiki/",
-      "summary": "Give a Brief Summary"
+      "releaseDate": "2020-07-17",
+      "url": "https://link.springer.com/article/10.1007/JHEP12(2020)073",
     }
   ],
   "skills": [
@@ -132,7 +147,8 @@
         "Fortran",
         "C++",
         "Python",
-        "Julia"
+        "Julia",
+        "Rust"
       ]
     },
     {
@@ -150,7 +166,8 @@
       "keywords": [
         "GNU/Linux",
         "Bash",
-        "Fish"
+        "Fish",
+        "Zsh"
       ]
     }
   ],
@@ -184,7 +201,45 @@
   "references": [],
   "projects": [
     {
-      "name": "Compression of Probability Distribution Functions (PDFs)",
+      "name": "Approximate N3LO Higgs pT spectra",
+      "description": "HpT_n3LO",
+      "highlights": [],
+      "keywords": [
+        "QCD",
+        "Phenomenology",
+        "C++"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "https://n3pdf.github.io/pycompressor/",
+      "roles": [
+        "Developer",
+        "Designer"
+      ],
+      "entity": "N3PDF",
+      "type": "application"
+    },
+    {
+      "name": "Higgs boson spectra in momentum and Mellin space",
+      "description": "HpT-MON",
+      "highlights": [],
+      "keywords": [
+        "QCD",
+        "Phenomenology",
+        "C++"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "https://github.com/N3PDF/HpT-MON",
+      "roles": [
+        "Developer",
+        "Designer"
+      ],
+      "entity": "N3PDF",
+      "type": "application"
+    },
+    {
+      "name": "Compression code for PDF replicas",
       "description": "pycompressor",
       "highlights": [],
       "keywords": [
@@ -196,6 +251,25 @@
       "startDate": "2016-08-24",
       "endDate": "2016-08-24",
       "url": "https://n3pdf.github.io/pycompressor/",
+      "roles": [
+        "Developer",
+        "Designer"
+      ],
+      "entity": "N3PDF",
+      "type": "application"
+    },
+    {
+      "name": "Generative Adversarial Networks (GANs) for MC PDF replicas",
+      "description": "ganpdfs",
+      "highlights": [],
+      "keywords": [
+        "Probability distribution",
+        "Statistics",
+        "Python"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "https://n3pdf.github.io/ganpdfs/",
       "roles": [
         "Developer",
         "Designer"
