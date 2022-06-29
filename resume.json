@@ -30,6 +30,22 @@
   },
   "work": [
     {
+      "name": "Vrije Universiteit (VU) van Amsterdam",
+      "position": "Research Associate",
+      "location": "Amsterdam, The Netherlands",
+      "url": "",
+      "startDate": "2021-11-01",
+      "summary": "developing machine learning frameworks for particle physics"
+    },
+    {
+      "name": "Nationaal Instituut voor Subatomaire Fysica (NIKHEF)",
+      "position": "Research Associate",
+      "location": "Amsterdam, The Netherlands",
+      "url": "",
+      "startDate": "2021-11-01",
+      "summary": "developing machine learning frameworks for particle physics"
+    },
+    {
       "name": "Universita degli Studi di Milano, Dipartimento di Fisica",
       "position": "Teaching Assistant for Fisica Teorica I (QFT I)",
       "location": "Milano, Italy",
@@ -82,7 +98,8 @@
       "url": "https://www.unimi.it/it",
       "area": "Theoretical Physics",
       "studyType": "PhD",
-      "startDate": "2018-10-01"
+      "startDate": "2018-10-01",
+      "endDate": "2021-09-30",
     },
     {
       "institution": "University of Cape Town",
