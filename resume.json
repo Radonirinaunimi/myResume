@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Tanjona R. Rabemananjara",
-    "label": "Theoretical Physics, Research Associate",
+    "label": "Theoretical Physics, PhD candidate",
     "image": "https://avatars.githubusercontent.com/Radonirinaunimi",
-    "email": "t.r.rabemananjara@vu.nl",
-    "phone": "+31-644-4201-84",
+    "email": "tanjona.rabemananjara@mi.infn.it",
+    "phone": "(+39) 351-230-1961",
     "url": "http://radonirinaunimi.github.io",
     "summary": "In 2016, I was a Summer Student at the European Organization for Nuclear Research (CERN) working on the LHCb experiment. Afterward, I moved to Cape Town in South Africa where I was awarded a M.Sc. in Mathematical Sciences from Stellenbosch University (2017) followed by a M.Sc. in Theoretical Physics at the University of Cape Town (2018) both under the Supervision of Dr. W. A. Horowitz. I then moved on to complete a Ph.D. in Theoretical Physics at the Department of Physics of the University of Milan (Statale) working within the remarkable N3PDF group (in collab. with NNPDF) under the supervision of Prof. Stefano Forte and Dr. Stefano Carrazza. I am currently a Research Associate at the Vrije Universiteit (VU) and NIKHEF in Amsterdam. My area of interests spans a wide range of topics in high energy particle physics (QCD, Higgs, Collider Phenomenology, Higgs physics, resummation) and machine learning.",
     "location": {
@@ -202,14 +202,16 @@
   "projects": [
     {
       "name": "Approximate N3LO Higgs pT spectra",
-      "description": "HpT_N3LO",
+      "description": "HpT_n3LO",
       "highlights": [],
       "keywords": [
         "QCD",
         "Phenomenology",
         "C++"
       ],
-      "url": "https://github.com/N3PDF/HpT-N3LO",
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "https://n3pdf.github.io/pycompressor/",
       "roles": [
         "Developer",
         "Designer"
@@ -226,6 +228,8 @@
         "Phenomenology",
         "C++"
       ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
       "url": "https://github.com/N3PDF/HpT-MON",
       "roles": [
         "Developer",
@@ -244,6 +248,8 @@
         "Statistics",
         "Python"
       ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
       "url": "https://n3pdf.github.io/pycompressor/",
       "roles": [
         "Developer",
@@ -261,6 +267,8 @@
         "Statistics",
         "Python"
       ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
       "url": "https://n3pdf.github.io/ganpdfs/",
       "roles": [
         "Developer",
